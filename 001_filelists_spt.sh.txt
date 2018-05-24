@@ -1,0 +1,34 @@
+#!/bin/bash
+
+source ./github/function_cmd_split.sh
+
+cmd_spt /001_filelists.sh.txt  40m
+cmd_spt ./github/cmd_compress.sh  40m
+cmd_spt ./github/cmd_split.sh  40m
+cmd_spt ./github/function_cmd_split.sh  40m
+cmd_spt ./github/git_add_commit.sh  40m
+cmd_spt ./github/git_config.sh  40m
+cmd_spt ./README.md  40m
+cmd_spt ./謝孟媛发音篇DVD1.001.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD1.002.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD1.003.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD10.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD2.001.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD2.002.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD2.003.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD2.004.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD3.001.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD3.002.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD3.003.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD3.004.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD4.001.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD4.002.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD4.003.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD4.004.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD4.005.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD5.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD6.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD7.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD8.rmvb  40m
+cmd_spt ./謝孟媛发音篇DVD9.rmvb  40m
+cmd_spt ./谢孟媛发音篇讲义.pdf  40m
